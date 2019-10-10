@@ -8,6 +8,7 @@ var db;
 MongoClient.connect(url, function(err, database){
     if(err){console.log('Fallo la conexion: ' + err); return;}
     db = database;
+    
     console.log("Software Avanzado, Tarea 8: Containers 1/2 ");
 });
 
